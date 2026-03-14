@@ -33,9 +33,5 @@ public class Balanced_Symbols {
         }
         return "NO";
     }
-    public static void main(String[] args) {
-        Balanced_Symbols sequence = new Balanced_Symbols();
-        String Test = "[[[]<>][(]]";
-        System.out.print(sequence.isBalanced(Test));
-    }
+  
 }
