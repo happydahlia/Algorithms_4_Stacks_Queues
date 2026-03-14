@@ -39,9 +39,5 @@ public class Decode_String {
 
         return finalStr;
     }
-    public static void main(String[] args) {
-        Decode_String sequence = new Decode_String();
-        String Test = "2[abd2[ce3[rt]]]";
-        System.out.print(sequence.decode(Test));
-    }
+   
 }
